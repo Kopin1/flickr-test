@@ -9,7 +9,7 @@ $.ajax({
   data: {
     format: 'json',
     jsoncallback: 'getJsonData',
-    tags: 'cat,hello,test'
+    tags: ''
   },
   dataType: 'jsonp',
 });
