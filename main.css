@@ -2,9 +2,19 @@ main {
     margin: 40px 0;
 }
 
-.image-list {
+.image-wrapper {
     margin-top: 50px;
+}
+
+.image-list {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+
+.image-list li {
+    margin-bottom: 20px;
 }
